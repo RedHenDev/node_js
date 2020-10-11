@@ -15,7 +15,7 @@ app.use(express.static('public'));
 
 
 
-// Now that we've intalled socket.io (npm install socket.io --save), we can grab it's framework.
+// Now that we've intalled socket.io (npm install socket.io --save), we can grab its framework.
 var socket = require('socket.io');
 
 var io = socket(server);
